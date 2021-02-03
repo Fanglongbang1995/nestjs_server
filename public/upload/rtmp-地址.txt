@@ -1,9 +1,0 @@
-rtmp://192.168.1.162:1935/live/live1
-rtmp://192.168.1.162:1935/live/live2
-rtmp://192.168.1.162:1935/live/live3
-
-
-rtsp://admin:K0yS2015@192.168.1.54:554/av0_1     0.6s
-rtsp://admin:K0yS2015@192.168.1.55:554/av0_1     0.7s
-rtsp://system:system@192.168.1.4:554/1               0.5s
-rtsp://system:system@192.168.1.76:554/camera0

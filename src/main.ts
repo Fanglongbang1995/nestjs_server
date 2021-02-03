@@ -6,9 +6,7 @@ import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import * as helmet from 'helmet';
 async function bootstrap() {
 
-  const app = await NestFactory.create<NestExpressApplication>(AppModule,{
-    logger: ['log','error', 'warn'],
-  });
+  const app = await NestFactory.create<NestExpressApplication>(AppModule);
 
   /* 
   We told Express that 
@@ -38,7 +36,7 @@ async function bootstrap() {
   const document = SwaggerModule.createDocument(app, options);
   SwaggerModule.setup('api', app, document);
 
-  await app.listen(3000);
+  await app.listen(18080);
 }
 
 bootstrap();

@@ -5,8 +5,8 @@
      {
    
       "name": "nestjs_server",
-   
-      "script": "bin/www",
+
+      "script": "dist/src/main.js",
    
       "log_date_format": "YYYY-MM-DD HH:mm:SS",
    
@@ -24,7 +24,7 @@
    
       "max_restarts": 10,
    
-      "max_memory_restart": "1M",
+      "max_memory_restart": "100M",
    
       "cron_restart": "1 0 * * *",
    
